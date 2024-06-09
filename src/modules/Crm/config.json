@@ -1,0 +1,40 @@
+{
+  "bitrixWebhook": "https://crm.taroirena.ru/rest/1/9fn9k2ioaczf0y04",
+  "bitrixWebhookOld": "https://crm.taroirena.ru/api/1/93nhq6l7r6y0i20k111",
+  "tgBot": {
+    "token": "1362225785:AAG-38Z9_gzSLU4Qs1EWGQUTMDZiH1xlN_w",
+    "defaultTgId": "519254444",
+    "reportsTgId": [
+      "188207447",
+      "28409101"
+    ],
+    "fieldTelegramId": "UF_FACEBOOK"
+  },
+  "crm": {
+    "fields": {
+      "delivery_id": "UF_CRM_5E793382ECA8C",
+      "address_id": "UF_CRM_1585168066112",
+      "track_number": "UF_CRM_1597094640508",
+      "order_number": "UF_CRM_5E7933830929C",
+      "date_order": "UF_CRM_5E7933830F261"
+    },
+    "deal": {
+      "deliveries_id": {
+        "58": "СДЭК посылка склад-склад",
+        "38": "СДЭК посылка склад-дверь",
+        "39": "СДЭК экспресс лайт склад-склад",
+        "40": "СДЭК экспресс лайт склад-дверь",
+        "41": "Почта России"
+      }
+    },
+    "lead": {
+      "deliveries_id": {
+        "26": "38",
+        "27": "39",
+        "28": "40",
+        "29": "41",
+        "59": "58"
+      }
+    }
+  }
+}

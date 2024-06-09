@@ -1,0 +1,16 @@
+{
+  "font-size"          : 15,
+
+  "row"                : 10,
+  "row-space"          : 30,
+
+  "common-margin-top"  : 40,
+  "common-margin-left" : 60,
+
+  "simple-row-space"   : 210,
+
+  "table-product-col-head" : 400,
+  "table-product-col"      : 435,
+
+  "table-delivery-col"     : 220
+}

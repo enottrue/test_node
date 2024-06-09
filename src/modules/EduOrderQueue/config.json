@@ -1,0 +1,14 @@
+{
+    "ksdc32862": {
+        "bitrixWebhook": "https://crm.taroirena.ru/rest/1/9fn9k2ioaczf0y04",
+        "defaultUserId": 30902,
+        "listUsersID": [
+            451,
+            11328
+        ],
+        "logsStatus": false,
+        "SOURCE_ID": [
+            "6"
+        ]
+    }
+}

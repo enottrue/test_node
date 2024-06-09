@@ -1,0 +1,1650 @@
+{
+  "bitrixWebhook": "https://crm.taroirena.ru/api/1/93nhq6l7r6y0i20k111",
+  "tokens": [
+    "1541655165"
+  ],
+  "1541655165": {
+    "customFields": {
+      "UF_CRM_5E793382ECA8C": {
+        "38": "СДЭК посылка склад-дверь",
+        "39": "СДЭК экспресс лайт склад-склад",
+        "40": "СДЭК экспресс лайт склад-дверь",
+        "41": "Почта России",
+        "58": "СДЭК посылка склад-склад"
+      }
+    },
+    "bitrixWebhook": "https://crm.taroirena.ru/rest/1/9fn9k2ioaczf0y04",
+    "fieldUrlPayment": "UF_CRM_1612623803326",
+    "deliveryField": "UF_CRM_5E793382ECA8C",
+    "fieldBank": "UF_CRM_1628621924030",
+    "fieldPayTypeView": "UF_CRM_1629895910",
+    "failedSberStatus": "C1:UC_HVXY2H",
+    "newStatus": "C1:PREPARATION",
+    "oldStatus": "C1:2",
+    "tgBot": {
+      "token": "1362225785:AAG-38Z9_gzSLU4Qs1EWGQUTMDZiH1xlN_w",
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    },
+    "tinkoff": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1612691329540",
+      "passwordTerminal": "n232bi2pg5txgwkm",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=1541655165",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff2": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1653565056403DEMO",
+      "passwordTerminal": "h6gytsm0kngxtbhe",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff3": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1691603049066",
+      "passwordTerminal": "gisv5d4cqnmsle6c",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff4": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1653565056403",
+      "passwordTerminal": "t8i2kpb32moie4uf",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff5": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1716795494885",
+      "passwordTerminal": "2Vghyv^BO7FtCAp!",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "usn_income"
+    },
+    "tinkoff6": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1716795494865DEMO",
+      "passwordTerminal": "DrZXZpThm7klcQ*4",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "usn_income"
+    },
+    "tinkoffCredit": {
+      "demo": false,
+      "urlApi": "https://forma.tinkoff.ru/api/partners/v2/orders/create",
+      "shopId": "04b83a1c-b069-4a2c-abf1-ac6f3fb263d1",
+      "showcaseId": "26dea60c-5524-4f11-8f63-8ccb1f4a8773",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoffCredit?token=1541655165"
+    },
+    "tinkoffCreditOld": {
+      "demo": false,
+      "urlApi": "https://forma.tinkoff.ru/api/partners/v2/orders/create",
+      "shopId": "63f31026-8950-4757-8658-006d1b38140f",
+      "showcaseId": "a49030b5-062a-447c-838e-b16a35c5b46a",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoffCredit?token=1541655165"
+    },
+    "sber": {
+      "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+      "login": "NOT-ACTIVE-P230813931473-api",
+      "password": "Ivfnhbwf11",
+      "notificationURL": "https://store.taroirena.ru/thank-you",
+      "failURL": "https://store.taroirena.ru/failed/",
+      "secretKey": "6isah90lrbtc5gkqmabn7gnqp3"
+    },
+    "sber2": {
+      "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+      "login": "p262306995174-api",
+      "password": "69e6WFzheGZE",
+      "notificationURL": "https://store.taroirena.ru/thank-you",
+      "failURL": "https://store.taroirena.ru/failed/",
+      "secretKey": "5m2nen1i1ehtp2f48c7tpj69bs"
+    },
+    "every_pay": {
+      "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+      "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+      "username": "f22ffd502dbebed7",
+      "secret": "ebfb04ffa73b97cd73099529ec8cf921",
+      "account": "EUR3D1",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/",
+      "returnUrl": "https://node.taroirena.ru/acquire/check-client"
+    },
+    "every_pay2": {
+      "returnUrl": "https://node.taroirena.ru/acquire/check-client",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/"
+    },
+    "every_pay3": {
+      "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+      "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+      "username": "5a3d734cdd36385d",
+      "secret": "fc9598d3ee036742c0f4483b43a7ee27",
+      "account": "EUR3D1",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/",
+      "returnUrl": "https://node.taroirena.ru/acquire/check-client"
+    }
+  },
+  "1914534766": {
+    "bitrixWebhook": "https://crm.taroirena.ru/rest/1/9fn9k2ioaczf0y04",
+    "deliveryField": "UF_CRM_5E793382ECA8C",
+    "fieldUrlPayment": "UF_CRM_1612623803326",
+    "fieldBank": "UF_CRM_1628621924030",
+    "fieldPayType": "UF_CRM_1629895839",
+    "fieldPayTypeView": "UF_CRM_1629895910",
+    "fieldDiscount": "UF_CRM_1634209271",
+    "fieldPartialPay": "UF_CRM_1634209333",
+    "fieldOrderPay": "UF_CRM_1635270433196",
+    "fieldAdditionalPay": "UF_CRM_1634561660",
+    "prepareStatus": "C3:PREPARATION",
+    "failedSberStatus": "C3:UC_5C9SJ8",
+    "failedStatus": "C3:PREPAYMENT_INVOICE",
+    "partialPayStatus": "C3:3",
+    "newStatus": "C3:4",
+    "oldStatusKurs": "C3:2",
+    "oldStatusTarif": "C3:1",
+    "tgBot": {
+      "token": "1362225785:AAG-38Z9_gzSLU4Qs1EWGQUTMDZiH1xlN_w",
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    },
+    "tinkoff": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1612691329540",
+      "passwordTerminal": "n232bi2pg5txgwkm",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=1914534766",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff2": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1653565056403DEMO",
+      "passwordTerminal": "h6gytsm0kngxtbhe",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff3": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1691603049066",
+      "passwordTerminal": "gisv5d4cqnmsle6c",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoffCredit": {
+      "demo": false,
+      "urlApi": "https://forma.tinkoff.ru/api/partners/v2/orders/create",
+      "shopId": "63f31026-8950-4757-8658-006d1b38140f",
+      "showcaseId": "a49030b5-062a-447c-838e-b16a35c5b46a",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoffCredit?token=1914534766"
+    },
+    "sber": {
+      "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+      "login": "P262310420267-api",
+      "password": "Jxn9Job8rH",
+      "notificationURL": "https://store.taroirena.ru/thank-you",
+      "failURL": "https://store.taroirena.ru/failed/",
+      "secretKey": "sm5pgs8evos6i1kjmmsppcjl20"
+    },
+    "sber2": {
+      "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+      "login": "p262306995174-api",
+      "password": "69e6WFzheGZE",
+      "notificationURL": "https://store.taroirena.ru/thank-you",
+      "failURL": "https://store.taroirena.ru/failed/",
+      "secretKey": "5m2nen1i1ehtp2f48c7tpj69bs"
+    },
+    "every_pay": {
+      "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+      "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+      "username": "f22ffd502dbebed7",
+      "secret": "ebfb04ffa73b97cd73099529ec8cf921",
+      "account": "EUR3D1",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/"
+    },
+    "every_pay4": {
+      "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+      "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+      "username": "bac8167f22e9616d",
+      "secret": "fc54251f76fbb63e0faa226a40c3f536",
+      "account": "EUR3D1",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/"
+    },
+    "every_pay5": {
+      "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+      "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+      "username": "f22ffd502dbebed7",
+      "secret": "ebfb04ffa73b97cd73099529ec8cf921",
+      "account": "EUR3D1",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/"
+    },
+    "every_pay6": {
+      "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+      "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+      "username": "4c71c500c2545e1c",
+      "secret": "2fce7eb2a14b7bd5678abb7d93a1bb12",
+      "account": "EUR3D1",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/"
+    },
+    "getcourse": {
+      "accessToken": "pEM0nS8x0Y3TwITG923gwb2EPuIFQAiJcAZqO2XxU96qoJSfWmi3wofKG7jkcccdQHcL8xVXxm0fTmzZNumgESiJR8zdkb6tQC0sjsHj7v78Ao2OBfb0Un8wA7Hhq07r",
+      "apiUrl": "https://taroirenaschool.getcourse.ru/pl/api"
+    }
+  },
+  "5355741952": {
+    "customFields": {
+      "UF_CRM_5E793382ECA8C": {
+        "38": "СДЭК посылка склад-дверь",
+        "39": "СДЭК экспресс лайт склад-склад",
+        "40": "СДЭК экспресс лайт склад-дверь",
+        "41": "Почта России",
+        "58": "СДЭК посылка склад-склад"
+      }
+    },
+    "bitrixWebhook": "https://crm.taroirena.ru/api/1/93nhq6l7r6y0i20k111",
+    "deliveryField": "UF_CRM_5E793382ECA8C",
+    "fieldUrlPayment": "UF_CRM_1612623803326",
+    "fieldBank": "UF_CRM_1628621924030",
+    "fieldPayType": "UF_CRM_1629895839",
+    "fieldPayTypeView": "UF_CRM_1629895910",
+    "fieldDiscount": "UF_CRM_1634209271",
+    "fieldPartialPay": "UF_CRM_1634209333",
+    "fieldOrderPay": "UF_CRM_1635270433196",
+    "fieldAdditionalPay": "UF_CRM_1634561660",
+    "prepareStatus": "C4:PREPAYMENT_INVOICE",
+    "failedStatus": "C4:EXECUTING",
+    "partialPayStatus": "C4:UC_GOARJ1",
+    "newStatus": "C4:UC_DIV6IB",
+    "oldStatusKurs": "C4:UC_NN95O9",
+    "oldStatusTarif": "C4:PREPARATION",
+    "tgBot": {
+      "token": "1362225785:AAG-38Z9_gzSLU4Qs1EWGQUTMDZiH1xlN_w",
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "519254444",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    },
+    "tinkoff": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1612691329540",
+      "passwordTerminal": "n232bi2pg5txgwkm",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff2": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1653565056403DEMO",
+      "passwordTerminal": "h6gytsm0kngxtbhe",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff3": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1691603049066",
+      "passwordTerminal": "gisv5d4cqnmsle6c",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff5": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1716795494885",
+      "passwordTerminal": "2Vghyv^BO7FtCAp!",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "usn_income"
+    },
+    "tinkoff6": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1716795494865DEMO",
+      "passwordTerminal": "DrZXZpThm7klcQ*4",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "usn_income"
+    },
+    "tinkoffCredit": {
+      "demo": false,
+      "urlApi": "https://forma.tinkoff.ru/api/partners/v2/orders/create",
+      "shopId": "63f31026-8950-4757-8658-006d1b38140f",
+      "showcaseId": "bbbec1a3-f93e-4ba2-a50b-93f4691bb6f9",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoffCredit?token=5355741952"
+    },
+    "sber": {
+      "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+      "login": "NOT-ACTIVE-P230813931473-api",
+      "password": "Ivfnhbwf11",
+      "notificationURL": "https://store.taroirena.ru/thank-you",
+      "failURL": "https://store.taroirena.ru/failed/",
+      "secretKey": "6isah90lrbtc5gkqmabn7gnqp3"
+    },
+    "sber2": {
+      "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+      "login": "p262306995174-api",
+      "password": "69e6WFzheGZE",
+      "notificationURL": "https://store.taroirena.ru/thank-you",
+      "failURL": "https://store.taroirena.ru/failed/",
+      "secretKey": "5m2nen1i1ehtp2f48c7tpj69bs"
+    },
+    "every_pay": {
+      "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+      "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+      "username": "f22ffd502dbebed7",
+      "secret": "ebfb04ffa73b97cd73099529ec8cf921",
+      "account": "EUR3D1",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/"
+    },
+    "getcourse": {
+      "accessToken": "pEM0nS8x0Y3TwITG923gwb2EPuIFQAiJcAZqO2XxU96qoJSfWmi3wofKG7jkcccdQHcL8xVXxm0fTmzZNumgESiJR8zdkb6tQC0sjsHj7v78Ao2OBfb0Un8wA7Hhq07r",
+      "apiUrl": "https://taroirenaschool.getcourse.ru/pl/api"
+    }
+  },
+  "1695225476": {
+    "customFields": {
+      "UF_CRM_5E793382ECA8C": {
+        "38": "СДЭК посылка склад-дверь",
+        "39": "СДЭК экспресс лайт склад-склад",
+        "40": "СДЭК экспресс лайт склад-дверь",
+        "41": "Почта России",
+        "58": "СДЭК посылка склад-склад"
+      }
+    },
+    "bitrixWebhook": "https://crm.taroirena.ru/api/1/93nhq6l7r6y0i20k111",
+    "deliveryField": "UF_CRM_5E793382ECA8C",
+    "fieldUrlPayment": "UF_CRM_1612623803326",
+    "fieldBank": "UF_CRM_1628621924030",
+    "fieldPayType": "UF_CRM_1629895839",
+    "fieldPayTypeView": "UF_CRM_1629895910",
+    "fieldDiscount": "UF_CRM_1634209271",
+    "fieldPartialPay": "UF_CRM_1634209333",
+    "fieldOrderPay": "UF_CRM_1635270433196",
+    "fieldAdditionalPay": "UF_CRM_1634561660",
+    "prepareStatus": "C4:PREPAYMENT_INVOICE",
+    "failedStatus": "C5:UC_CTMZYL",
+    "partialPayStatus": "C5:1",
+    "newStatus": "C5:UC_EFWKA3",
+    "oldStatusKurs": "C4:UC_NN95O9",
+    "oldStatusTarif": "C4:PREPARATION",
+    "tgBot": {
+      "token": "1362225785:AAG-38Z9_gzSLU4Qs1EWGQUTMDZiH1xlN_w",
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    },
+    "tinkoff": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1612691329540",
+      "passwordTerminal": "n232bi2pg5txgwkm",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff2": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1653565056403DEMO",
+      "passwordTerminal": "h6gytsm0kngxtbhe",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoff3": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1691603049066",
+      "passwordTerminal": "gisv5d4cqnmsle6c",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+      "tax": "none",
+      "taxation": "patent"
+    },
+    "tinkoffCredit": {
+      "demo": false,
+      "urlApi": "https://forma.tinkoff.ru/api/partners/v2/orders/create",
+      "shopId": "63f31026-8950-4757-8658-006d1b38140f",
+      "showcaseId": "bbbec1a3-f93e-4ba2-a50b-93f4691bb6f9",
+      "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoffCredit?token=5355741952"
+    },
+    "sber": {
+      "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+      "login": "NOT-ACTIVE-P230813931473-api",
+      "password": "Ivfnhbwf11",
+      "notificationURL": "https://store.taroirena.ru/thank-you",
+      "failURL": "https://store.taroirena.ru/failed/",
+      "secretKey": "6isah90lrbtc5gkqmabn7gnqp3"
+    },
+    "sber2": {
+      "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+      "login": "p262306995174-api",
+      "password": "69e6WFzheGZE",
+      "notificationURL": "https://store.taroirena.ru/thank-you",
+      "failURL": "https://store.taroirena.ru/failed/",
+      "secretKey": "5m2nen1i1ehtp2f48c7tpj69bs"
+    },
+    "every_pay": {
+      "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+      "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+      "username": "f22ffd502dbebed7",
+      "secret": "ebfb04ffa73b97cd73099529ec8cf921",
+      "account": "EUR3D1",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/"
+    },
+    "every_pay2": {
+      "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+      "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+      "username": "bf83db914876de4b",
+      "secret": "18ad8408c9ff8aca21edc9baaa2ef2da",
+      "account": "EUR3D1",
+      "fail": "https://store.taroirena.com/failed/",
+      "success": "https://store.taroirena.com/thank-you/"
+    },
+    "getcourse": {
+      "accessToken": "pEM0nS8x0Y3TwITG923gwb2EPuIFQAiJcAZqO2XxU96qoJSfWmi3wofKG7jkcccdQHcL8xVXxm0fTmzZNumgESiJR8zdkb6tQC0sjsHj7v78Ao2OBfb0Un8wA7Hhq07r",
+      "apiUrl": "https://taroirenaschool.getcourse.ru/pl/api"
+    }
+  },
+  "common": {
+    "bitrixWebhook": "https://crm.taroirena.ru/api/1/93nhq6l7r6y0i20k111",
+    "fieldBank": "UF_CRM_1628621924030",
+    "fieldBankInvoice": "ufCrm_SMART_INVOICE_1706948587230",
+    "fieldUrlPaymentInvoice": "ufCrm_SMART_INVOICE_1686727020402",
+    "fieldPayTypeView": "UF_CRM_1629895910",
+    "fieldPayTypeViewInvoice": "ufCrm_SMART_INVOICE_1706948587230",
+    "fieldUrlPayment": "UF_CRM_1612623803326",
+    "fieldPayType": "UF_CRM_1629895839",
+    "fieldDiscount": "UF_CRM_1634209271",
+    "fieldPartialPay": "UF_CRM_1634209333",
+    "fieldOrderPay": "UF_CRM_1635270433196",
+    "fieldAdditionalPay": "UF_CRM_1634561660",
+    "deliveryField": "UF_CRM_5E793382ECA8C",
+    "customFields": {
+      "UF_CRM_5E793382ECA8C": {
+        "38": "СДЭК посылка склад-дверь",
+        "39": "СДЭК экспресс лайт склад-склад",
+        "40": "СДЭК экспресс лайт склад-дверь",
+        "41": "Почта России",
+        "58": "СДЭК посылка склад-склад"
+      }
+    },
+    "payment": {
+      "tinkoff": {
+        "urlApi": "https://securepay.tinkoff.ru/v2",
+        "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff",
+        "tax": "none",
+        "taxation": "patent"
+      },
+      "tinkoff2": {
+        "urlApi": "https://securepay.tinkoff.ru/v2",
+        "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff2",
+        "tax": "none",
+        "taxation": "patent"
+      },
+      "tinkoff3": {
+        "urlApi": "https://securepay.tinkoff.ru/v2",
+        "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff3?token=5355741952",
+        "tax": "none",
+        "taxation": "patent"
+      },
+      "tinkoff4": {
+        "urlApi": "https://securepay.tinkoff.ru/v2",
+        "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+        "tax": "none",
+        "taxation": "patent"
+      },
+      "tinkoff5": {
+        "urlApi": "https://securepay.tinkoff.ru/v2",
+        "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+        "tax": "none",
+        "taxation": "usn_income"
+      },
+      "tinkoff6": {
+        "urlApi": "https://securepay.tinkoff.ru/v2",
+        "terminalId": "1716795494865DEMO",
+        "passwordTerminal": "DrZXZpThm7klcQ*4",
+        "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoff?token=5355741952",
+        "tax": "none",
+        "taxation": "usn_income"
+      },
+      "tinkoffCredit": {
+        "shopId": "04b83a1c-b069-4a2c-abf1-ac6f3fb263d1",
+        "showcaseId": "26dea60c-5524-4f11-8f63-8ccb1f4a8773",
+        "demo": false,
+        "urlApi": "https://forma.tinkoff.ru/api/partners/v2/orders/create",
+        "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoffCredit",
+        "promocode": {
+          "437": "installment_0_0_3_4",
+          "82": "installment_0_0_4_4,5",
+          "83": "installment_0_0_6_6,5",
+          "308": "installment_0_0_10_10",
+          "265": "installment_0_0_12_11,5"
+        }
+      },
+      "tinkoffCredit2": {
+        "shopId": "04b83a1c-b069-4a2c-abf1-ac6f3fb263d1",
+        "showcaseId": "26dea60c-5524-4f11-8f63-8ccb1f4a8773",
+        "demo": false,
+        "urlApi": "https://forma.tinkoff.ru/api/partners/v2/orders/create",
+        "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoffCredit",
+        "promocode": {
+          "437": "installment_0_0_3_4",
+          "82": "installment_0_0_4_4,5",
+          "83": "installment_0_0_6_6,5",
+          "308": "installment_0_0_10_10",
+          "265": "installment_0_0_12_11,5"
+        }
+      },
+      "tinkoffCredit2Old": {
+        "shopId": "72c45f9a-47d2-4e46-8484-f9e581e65f94",
+        "showcaseId": "fee36b0b-f8d8-478d-bcfc-d53c2ef64320",
+        "demo": false,
+        "urlApi": "https://forma.tinkoff.ru/api/partners/v2/orders/create",
+        "notificationURL": "https://node.taroirena.ru/acquire/notificationTinkoffCredit",
+        "promocode": {
+          "437": "installment_0_0_3_4",
+          "82": "installment_0_0_4_4,5",
+          "83": "installment_0_0_6_6,5",
+          "308": "installment_0_0_10_10",
+          "265": "installment_0_0_12_11,5"
+        }
+      },
+      "sber": {
+        "login": "P262310420267-api",
+        "password": "Jxn9Job8rH",
+        "login11": "NOT-ACTIVE-P230813931473-api",
+        "password11": "Ivfnhbwf11",
+        "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+        "secretKey": "sm5pgs8evos6i1kjmmsppcjl20",
+        "secretKey11": "6isah90lrbtc5gkqmabn7gnqp3"
+      },
+      "sber2": {
+        "login": "p262306995174-api",
+        "password": "69e6WFzheGZE",
+        "urlApi": "https://securepayments.sberbank.ru/payment/rest",
+        "secretKey": "5m2nen1i1ehtp2f48c7tpj69bs"
+      },
+      "every_pay": {
+        "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+        "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+        "returnUrl": "https://node.taroirena.ru/acquire/check-client",
+        "username": "f22ffd502dbebed7",
+        "secret": "ebfb04ffa73b97cd73099529ec8cf921",
+        "account": "EUR3D1",
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay2": {
+        "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+        "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+        "returnUrl": "https://node.taroirena.ru/acquire/check-client",
+        "username": "4c71c500c2545e1c",
+        "secret": "2fce7eb2a14b7bd5678abb7d93a1bb12",
+        "account": "EUR3D1",
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay3": {
+        "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+        "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+        "username": "5a3d734cdd36385d",
+        "secret": "fc9598d3ee036742c0f4483b43a7ee27",
+        "account": "EUR3D1",
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/",
+        "returnUrl": "https://node.taroirena.ru/acquire/check-client"
+      },
+      "every_pay4": {
+        "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+        "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+        "username": "bac8167f22e9616d",
+        "secret": "fc54251f76fbb63e0faa226a40c3f536",
+        "account": "EUR3D1",
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/",
+        "returnUrl": "https://node.taroirena.ru/acquire/check-client"
+      },
+      "every_pay5": {
+        "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+        "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+        "username": "f22ffd502dbebed7",
+        "secret": "ebfb04ffa73b97cd73099529ec8cf921",
+        "account": "EUR3D1",
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/",
+        "returnUrl": "https://node.taroirena.ru/acquire/check-client"
+      },
+      "every_pay6": {
+        "urlApi": "https://pay.every-pay.eu/api/v4/payments/oneoff",
+        "callbackApi": "https://pay.every-pay.eu/api/v4/payments/",
+        "username": "4c71c500c2545e1c",
+        "secret": "2fce7eb2a14b7bd5678abb7d93a1bb12",
+        "account": "EUR3D1",
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/",
+        "returnUrl": "https://node.taroirena.ru/acquire/check-client"
+      },
+      "yookassa": {
+        "urlApi": "https://api.yookassa.ru/v3/payments",
+        "returnUrl": "https://node.taroirena.ru/acquire/returned-client",
+        "username": "240188",
+        "secret": "live_qhdDin_q1YyKYahzduGKkZfuavUSWIFa5oMDGgbQk40",
+        "success": "https://store.taroirena.ru/thank-you",
+        "fail": "https://store.taroirena.ru/failed/"
+      },
+      "yookassaIv": {
+        "urlApi": "https://api.yookassa.ru/v3/payments",
+        "returnUrl": "https://taroirena-school.ru/spasibo",
+        "username": "396862",
+        "secret": "live_zuzD29SRh3T4bJ_yU9GGwMZiKSydTjqbjB4URWgaDIw",
+        "success": "https://taroirena-school.ru/spasibo",
+        "fail": "https://taroirena-school.ru/errorpay"
+      },
+      "epay": {
+        "isTest": false,
+        "test": {
+          "tokenUrl": "https://testoauth.homebank.kz/epay2/oauth2/token",
+          "client_id": "test",
+          "client_secret": "yF587AV9Ms94qN2QShFzVR3vFnWkhjbAK3sG",
+          "terminal": "67e34d63-102f-4bd1-898e-370781d0074d"
+        },
+        "prod": {
+          "tokenUrl": "https://epay-oauth.homebank.kz/oauth2/token",
+          "client_id": "IRENABRACELETS.KZ",
+          "client_secret": "KmN0zP5bLer2UrY",
+          "terminal": "2e14cbeb-5a54-4076-a843-8ca13ee50873"
+        },
+        "notification": "https://node.taroirena.ru/acquire/notification-epay?token=1914534766",
+        "fail": "https://irenabracelets.kz/failed/",
+        "success": "https://irenabracelets.kz/thank-you/"
+      }
+    },
+    "tgBot": {
+      "token": "1362225785:AAG-38Z9_gzSLU4Qs1EWGQUTMDZiH1xlN_w"
+    },
+    "getcourse": {
+      "accessToken": "pEM0nS8x0Y3TwITG923gwb2EPuIFQAiJcAZqO2XxU96qoJSfWmi3wofKG7jkcccdQHcL8xVXxm0fTmzZNumgESiJR8zdkb6tQC0sjsHj7v78Ao2OBfb0Un8wA7Hhq07r",
+      "apiUrl": "https://taroirenaschool.getcourse.ru/pl/api"
+    }
+  },
+  "1": {
+    "payment": {
+      "tinkoff": {
+        "terminalId": "1612691329540",
+        "passwordTerminal": "n232bi2pg5txgwkm"
+      },
+      "tinkoff2": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff3": {
+        "terminalId": "1691603049066",
+        "passwordTerminal": "gisv5d4cqnmsle6c"
+      },
+      "tinkoff4": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff5": {
+        "terminalId": "1716795494885",
+        "passwordTerminal": "2Vghyv^BO7FtCAp!"
+      },
+      "tinkoff6": {
+        "terminalId": "1716795494865DEMO",
+        "passwordTerminal": "DrZXZpThm7klcQ*4"
+      },
+      "tinkoffCredit": {},
+      "tinkoffCredit2": {},
+      "sber": {
+        "notificationURL": "https://store.taroirena.ru/thank-you",
+        "failURL": "https://store.taroirena.ru/failed/"
+      },
+      "sber2": {
+        "notificationURL": "https://store.taroirena.ru/thank-you",
+        "failURL": "https://store.taroirena.ru/failed/"
+      },
+      "every_pay": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay2": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay3": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay4": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay5": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay6": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      }
+    },
+    "newStatus": "C1:PREPARATION",
+    "oldStatus": "C1:2",
+    "candlesStatus": "C1:NEW",
+    "tgBot": {
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    }
+  },
+  "2": {
+    "prepareStatus": "C2:UC_H1JVRV",
+    "newStatus": "C2:PREPAYMENT_INVOICE",
+    "payment": {
+      "tinkoff": {
+        "terminalId": "1612691329540",
+        "passwordTerminal": "n232bi2pg5txgwkm"
+      },
+      "tinkoff2": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff3": {
+        "terminalId": "1691603049066",
+        "passwordTerminal": "gisv5d4cqnmsle6c"
+      },
+      "tinkoff4": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff5": {
+        "terminalId": "1716795494885",
+        "passwordTerminal": "2Vghyv^BO7FtCAp!"
+      },
+      "tinkoff6": {
+        "terminalId": "1716795494865DEMO",
+        "passwordTerminal": "DrZXZpThm7klcQ*4"
+      },
+      "tinkoffCredit": {
+        "shopId": "63f31026-8950-4757-8658-006d1b38140f",
+        "showcaseId": "bbbec1a3-f93e-4ba2-a50b-93f4691bb6f9"
+      },
+      "tinkoffCredit2": {},
+      "sber": {
+        "notificationURL": "https://amanitaro.taroirena.ru/payment-success",
+        "failUrl": "https://amanitaro.taroirena.ru/payment-failed"
+      },
+      "sber2": {
+        "notificationURL": "https://amanitaro.taroirena.ru/payment-success",
+        "failURL": "https://amanitaro.taroirena.ru/payment-failed"
+      },
+      "every_pay": {
+        "fail": "https://store.taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay2": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay3": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay4": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay5": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay6": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      }
+    },
+    "tgBot": {
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    }
+  },
+  "3": {
+    "prepareStatus": "C3:PREPARATION",
+    "failedStatus": "C3:PREPAYMENT_INVOICE",
+    "partialPayStatus": "C3:3",
+    "newStatus": "C3:4",
+    "oldStatusKurs": "C3:2",
+    "oldStatusWebinar": "C3:25",
+    "oldStatusTarif": "C3:1",
+    "startDeal": "C3:NEW",
+    "payment": {
+      "tinkoff": {
+        "terminalId": "1612691329540",
+        "passwordTerminal": "n232bi2pg5txgwkm"
+      },
+      "tinkoff2": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff3": {
+        "terminalId": "1691603049066",
+        "passwordTerminal": "gisv5d4cqnmsle6c"
+      },
+      "tinkoff4": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff5": {
+        "terminalId": "1716795494885",
+        "passwordTerminal": "2Vghyv^BO7FtCAp!"
+      },
+      "tinkoff6": {
+        "terminalId": "1716795494865DEMO",
+        "passwordTerminal": "DrZXZpThm7klcQ*4"
+      },
+      "tinkoffCredit": {},
+      "tinkoffCredit2": {},
+      "sber": {
+        "notificationURL": "https://edu.taroirena.ru/payment-success",
+        "failUrl": "https://edu.taroirena.ru/payment-failed"
+      },
+      "sber2": {
+        "notificationURL": "https://edu.taroirena.ru/payment-success",
+        "failURL": "https://edu.taroirena.ru/payment-failed"
+      },
+      "every_pay": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay2": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay3": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay4": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay5": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay6": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      }
+    },
+    "tgBot": {
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    },
+    "permodule": {
+      "source_product": {
+        "1000": "tutor",
+        "999": "tutor",
+        "998": "tutor",
+        "997": "tutor",
+        "996": "tutor",
+        "995": "tutor",
+        "994": "tutor",
+        "993": "tutor",
+        "992": "tutor",
+        "991": "tutor",
+        "990": "tutor",
+        "989": "tutor",
+        "988": "tutor",
+        "987": "tutor",
+        "986": "tutor",
+        "985": "tutor",
+        "759": "tutor_old",
+        "760": "tutor_old",
+        "761": "tutor_old",
+        "762": "tutor_old",
+        "763": "tutor_old",
+        "764": "tutor_old",
+        "765": "tutor_old",
+        "766": "tutor_old",
+        "767": "tutor_old",
+        "768": "tutor_old",
+        "769": "tutor_old",
+        "770": "tutor_old",
+        "771": "tutor_old",
+        "772": "tutor_old",
+        "773": "tutor_old",
+        "774": "tutor_old",
+        "984": "mentor",
+        "983": "mentor",
+        "982": "mentor",
+        "981": "mentor",
+        "980": "mentor",
+        "979": "mentor",
+        "978": "mentor",
+        "977": "mentor",
+        "976": "mentor",
+        "975": "mentor",
+        "974": "mentor",
+        "973": "mentor",
+        "972": "mentor",
+        "971": "mentor",
+        "970": "mentor",
+        "969": "mentor",
+        "968": "mentor",
+        "967": "mentor",
+        "966": "mentor",
+        "965": "mentor",
+        "964": "mentor",
+        "963": "mentor",
+        "962": "mentor",
+        "961": "mentor",
+        "775": "mentor_old",
+        "776": "mentor_old",
+        "777": "mentor_old",
+        "778": "mentor_old",
+        "779": "mentor_old",
+        "780": "mentor_old",
+        "781": "mentor_old",
+        "782": "mentor_old",
+        "783": "mentor_old",
+        "784": "mentor_old",
+        "785": "mentor_old",
+        "786": "mentor_old",
+        "787": "mentor_old",
+        "788": "mentor_old",
+        "789": "mentor_old",
+        "790": "mentor_old",
+        "791": "mentor_old",
+        "792": "mentor_old",
+        "793": "mentor_old",
+        "794": "mentor_old",
+        "795": "mentor_old",
+        "796": "mentor_old",
+        "797": "mentor_old",
+        "798": "mentor_old"
+      },
+      "products": {
+        "week_2": {
+          "tutor": {
+            "module_1": {
+              "crm": 999,
+              "getcourse": 4973203,
+              "price": 8250
+            },
+            "module_2": {
+              "crm": 997,
+              "getcourse": 4973217,
+              "price": 8250
+            },
+            "module_3": {
+              "crm": 995,
+              "getcourse": 4973224,
+              "price": 8250
+            },
+            "module_4": {
+              "crm": 993,
+              "getcourse": 4973234,
+              "price": 8250
+            }
+          },
+          "tutor_old": {
+            "module_1": {
+              "crm": 759,
+              "getcourse": 4492093,
+              "price": 8240
+            },
+            "module_2": {
+              "crm": 761,
+              "getcourse": 4492114,
+              "price": 7250
+            },
+            "module_3": {
+              "crm": 763,
+              "getcourse": 4492121,
+              "price": 7250
+            },
+            "module_4": {
+              "crm": 765,
+              "getcourse": 4492131,
+              "price": 7250
+            }
+          },
+          "mentor": {
+            "module_1": {
+              "crm": 983,
+              "getcourse": 4973243,
+              "price": 9750
+            },
+            "module_2": {
+              "crm": 981,
+              "getcourse": 4973254,
+              "price": 9750
+            },
+            "module_3": {
+              "crm": 979,
+              "getcourse": 4973257,
+              "price": 9750
+            },
+            "module_4": {
+              "crm": 977,
+              "getcourse": 4973261,
+              "price": 9750
+            }
+          },
+          "mentor_old": {
+            "module_1": {
+              "crm": 775,
+              "getcourse": 4495105,
+              "price": 9490
+            },
+            "module_2": {
+              "crm": 777,
+              "getcourse": 4495125,
+              "price": 8500
+            },
+            "module_3": {
+              "crm": 779,
+              "getcourse": 4495132,
+              "price": 8500
+            },
+            "module_4": {
+              "crm": 781,
+              "getcourse": 4500994,
+              "price": 8500
+            }
+          }
+        },
+        "week_3": {
+          "tutor": {
+            "module_1": {
+              "crm": 991,
+              "getcourse": 4973203,
+              "price": 8250
+            },
+            "module_2": {
+              "crm": 989,
+              "getcourse": 4973217,
+              "price": 8250
+            },
+            "module_3": {
+              "crm": 987,
+              "getcourse": 4973224,
+              "price": 8250
+            },
+            "module_4": {
+              "crm": 985,
+              "getcourse": 4973234,
+              "price": 8250
+            }
+          },
+          "tutor_old": {
+            "module_1": {
+              "crm": 767,
+              "getcourse": 4492093,
+              "price": 8240
+            },
+            "module_2": {
+              "crm": 769,
+              "getcourse": 4492114,
+              "price": 7250
+            },
+            "module_3": {
+              "crm": 771,
+              "getcourse": 4492121,
+              "price": 7250
+            },
+            "module_4": {
+              "crm": 773,
+              "getcourse": 4492131,
+              "price": 7250
+            }
+          },
+          "mentor": {
+            "module_1": {
+              "crm": 975,
+              "getcourse": 4973243,
+              "price": 9750
+            },
+            "module_2": {
+              "crm": 973,
+              "getcourse": 4973254,
+              "price": 9750
+            },
+            "module_3": {
+              "crm": 971,
+              "getcourse": 4973257,
+              "price": 9750
+            },
+            "module_4": {
+              "crm": 969,
+              "getcourse": 4973261,
+              "price": 9750
+            }
+          },
+          "mentor_old": {
+            "module_1": {
+              "crm": 783,
+              "getcourse": 4495105,
+              "price": 9490
+            },
+            "module_2": {
+              "crm": 785,
+              "getcourse": 4495125,
+              "price": 8500
+            },
+            "module_3": {
+              "crm": 787,
+              "getcourse": 4495132,
+              "price": 8500
+            },
+            "module_4": {
+              "crm": 789,
+              "getcourse": 4500994,
+              "price": 8500
+            }
+          }
+        },
+        "week_4": {
+          "mentor": {
+            "module_1": {
+              "crm": 967,
+              "getcourse": 4973243,
+              "price": 9750
+            },
+            "module_2": {
+              "crm": 965,
+              "getcourse": 4973254,
+              "price": 9750
+            },
+            "module_3": {
+              "crm": 963,
+              "getcourse": 4973257,
+              "price": 9750
+            },
+            "module_4": {
+              "crm": 961,
+              "getcourse": 4973261,
+              "price": 9750
+            }
+          },
+          "mentor_old": {
+            "module_1": {
+              "crm": 791,
+              "getcourse": 4495105,
+              "price": 9490
+            },
+            "module_2": {
+              "crm": 793,
+              "getcourse": 4495125,
+              "price": 8500
+            },
+            "module_3": {
+              "crm": 795,
+              "getcourse": 4495132,
+              "price": 8500
+            },
+            "module_4": {
+              "crm": 797,
+              "getcourse": 4500994,
+              "price": 8500
+            }
+          }
+        }
+      },
+      "status": {
+        "start_pay": "C3:UC_HQTIR7",
+        "end_pay": "C3:UC_XQV29B"
+      },
+      "field": {
+        "count_module": "UF_CRM_1683031176",
+        "count_week": "UF_CRM_1683265350"
+      }
+    }
+  },
+  "4": {
+    "prepareStatus": "C4:PREPAYMENT_INVOICE",
+    "failedStatus": "C4:EXECUTING",
+    "partialPayStatus": "C4:UC_GOARJ1",
+    "newStatus": "C4:UC_DIV6IB",
+    "oldStatusKurs": "C4:UC_NN95O9",
+    "oldStatusTarif": "C4:PREPARATION",
+    "payment": {
+      "tinkoff": {
+        "terminalId": "1612691329540",
+        "passwordTerminal": "n232bi2pg5txgwkm"
+      },
+      "tinkoff2": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff3": {
+        "terminalId": "1691603049066",
+        "passwordTerminal": "gisv5d4cqnmsle6c"
+      },
+      "tinkoff4": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff5": {
+        "terminalId": "1716795494885",
+        "passwordTerminal": "2Vghyv^BO7FtCAp!"
+      },
+      "tinkoff6": {
+        "terminalId": "1716795494865DEMO",
+        "passwordTerminal": "DrZXZpThm7klcQ*4"
+      },
+      "tinkoffCredit": {},
+      "tinkoffCredit2": {},
+      "sber": {
+        "notificationURL": "https://amanitaro.taroirena.ru/payment-success",
+        "failUrl": "https://amanitaro.taroirena.ru/payment-failed"
+      },
+      "sber2": {
+        "notificationURL": "https://amanitaro.taroirena.ru/payment-success",
+        "failURL": "https://amanitaro.taroirena.ru/payment-failed"
+      },
+      "every_pay": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay2": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay3": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay4": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay5": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay6": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      }
+    },
+    "tgBot": {
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    }
+  },
+  "5": {
+    "prepareStatus": "C5:UC_GFU4X9",
+    "failedStatus": "C4:EXECUTING",
+    "partialPayStatus": "C5:1",
+    "newStatus": "C5:UC_EFWKA3",
+    "payment": {
+      "tinkoff": {
+        "terminalId": "1612691329540",
+        "passwordTerminal": "n232bi2pg5txgwkm"
+      },
+      "tinkoff2": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff3": {
+        "terminalId": "1691603049066",
+        "passwordTerminal": "gisv5d4cqnmsle6c"
+      },
+      "tinkoff4": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff5": {
+        "terminalId": "1716795494885",
+        "passwordTerminal": "2Vghyv^BO7FtCAp!"
+      },
+      "tinkoff6": {
+        "terminalId": "1716795494865DEMO",
+        "passwordTerminal": "DrZXZpThm7klcQ*4"
+      },
+      "tinkoffCredit": {},
+      "tinkoffCredit2": {},
+      "sber": {
+        "notificationURL": "https://amanitaro.taroirena.ru/payment-success",
+        "failUrl": "https://amanitaro.taroirena.ru/payment-failed"
+      },
+      "sber2": {
+        "notificationURL": "https://amanitaro.taroirena.ru/payment-success",
+        "failURL": "https://amanitaro.taroirena.ru/payment-failed"
+      },
+      "every_pay": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay2": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay3": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay4": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay5": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay6": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      }
+    },
+    "tgBot": {
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "519254444",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    }
+  },
+  "6": {},
+  "7": {},
+  "8": {
+    "prepareStatus": "C8:UC_36A9G4",
+    "failedStatus": "C8:UC_OHXJRN",
+    "partialPayStatus": "C8:UC_764LML",
+    "newStatus": "C8:UC_9XL1NZ",
+    "oldStatusKurs": "C8:UC_Q8XRDF",
+    "oldStatusTarif": "C8:EXECUTING",
+    "payment": {
+      "tinkoff": {
+        "terminalId": "1612691329540",
+        "passwordTerminal": "n232bi2pg5txgwkm"
+      },
+      "tinkoff2": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff3": {
+        "terminalId": "1691603049066",
+        "passwordTerminal": "gisv5d4cqnmsle6c"
+      },
+      "tinkoff4": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff5": {
+        "terminalId": "1716795494885",
+        "passwordTerminal": "2Vghyv^BO7FtCAp!"
+      },
+      "tinkoff6": {
+        "terminalId": "1716795494865DEMO",
+        "passwordTerminal": "DrZXZpThm7klcQ*4"
+      },
+      "tinkoffCredit": {
+        "promocode": {
+          "437": "installment_0_0_3_4",
+          "82": "installment_0_0_4_4,5",
+          "83": "installment_0_0_6_6,5",
+          "308": "installment_0_0_10_10",
+          "265": "installment_0_0_12_11,5"
+        }
+      },
+      "tinkoffCredit2": {
+        "promocode": {
+          "437": "installment_0_0_3_4",
+          "82": "installment_0_0_4_4,5",
+          "83": "installment_0_0_6_6,5",
+          "308": "installment_0_0_10_10",
+          "265": "installment_0_0_12_11,5"
+        }
+      },
+      "sber": {
+        "notificationURL": "https://edu.taroirena.ru/payment-success",
+        "failUrl": "https://edu.taroirena.ru/payment-failed",
+        "secretKey": "sm5pgs8evos6i1kjmmsppcjl20"
+      },
+      "sber2": {
+        "notificationURL": "https://edu.taroirena.ru/payment-success",
+        "failURL": "https://edu.taroirena.ru/payment-failed",
+        "secretKey": "5m2nen1i1ehtp2f48c7tpj69bs"
+      },
+      "every_pay": {
+        "returnUrl": "https://node.taroirena.ru/acquire/check-client",
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay2": {
+        "returnUrl": "https://node.taroirena.ru/acquire/check-client",
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay3": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay4": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay5": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay6": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      }
+    },
+    "tgBot": {
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    }
+  },
+  "9": {
+    "newStatus": "C9:PREPAYMENT_INVOICE",
+    "oldStatus": "C9:NEW",
+    "payment": {
+      "tinkoff": {
+        "terminalId": "1612691329540",
+        "passwordTerminal": "n232bi2pg5txgwkm"
+      },
+      "tinkoff2": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff3": {
+        "terminalId": "1691603049066",
+        "passwordTerminal": "gisv5d4cqnmsle6c"
+      },
+      "tinkoff4": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf"
+      },
+      "tinkoff5": {
+        "terminalId": "1716795494885",
+        "passwordTerminal": "2Vghyv^BO7FtCAp!"
+      },
+      "tinkoff6": {
+        "terminalId": "1716795494865DEMO",
+        "passwordTerminal": "DrZXZpThm7klcQ*4"
+      },
+      "tinkoffCredit": {},
+      "tinkoffCredit2": {},
+      "sber": {
+        "notificationURL": "https://edu.taroirena.ru/payment-success",
+        "failUrl": "https://edu.taroirena.ru/payment-failed"
+      },
+      "sber2": {
+        "notificationURL": "https://edu.taroirena.ru/payment-success",
+        "failURL": "https://edu.taroirena.ru/payment-failed"
+      },
+      "every_pay": {
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay2": {
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay3": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay4": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay5": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      },
+      "every_pay6": {
+        "fail": "https://taroirena.com/failed/",
+        "success": "https://taroirena.com/thank-you/"
+      }
+    },
+    "tgBot": {
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    }
+  },
+  "10": {},
+  "11": {
+    "newStatus": "C11:UC_LD2SMO",
+    "oldStatus": "C11:UC_KX2EGJ",
+    "payment": {
+      "tinkoff": {
+        "terminalId": "1612691329540",
+        "passwordTerminal": "n232bi2pg5txgwkm",
+        "success": "https://dharmamulet.com/success-payment",
+        "failURL": "https://dharmamulet.com/failed-payment"
+      },
+      "tinkoff2": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf",
+        "success": "https://dharmamulet.com/success-payment",
+        "failURL": "https://dharmamulet.com/failed-payment"
+      },
+      "tinkoff3": {
+        "terminalId": "1691603049066",
+        "passwordTerminal": "gisv5d4cqnmsle6c",
+        "success": "https://dharmamulet.com/success-payment",
+        "failURL": "https://dharmamulet.com/failed-payment"
+      },
+      "tinkoff4": {
+        "terminalId": "1653565056403",
+        "passwordTerminal": "t8i2kpb32moie4uf",
+        "success": "https://dharmamulet.com/success-payment",
+        "failURL": "https://dharmamulet.com/failed-payment"
+      },
+      "tinkoff5": {
+        "terminalId": "1716795494885",
+        "passwordTerminal": "2Vghyv^BO7FtCAp!"
+      },
+      "tinkoff6": {
+        "terminalId": "1716795494865DEMO",
+        "passwordTerminal": "DrZXZpThm7klcQ*4"
+      },
+      "tinkoffCredit": {},
+      "tinkoffCredit2": {},
+      "sber": {
+        "notificationURL": "https://dharmamulet.com/success-payment",
+        "failUrl": "https://dharmamulet.com/failed-payment"
+      },
+      "sber2": {
+        "notificationURL": "https://dharmamulet.com/success-payment",
+        "failURL": "https://dharmamulet.com/failed-payment"
+      },
+      "every_pay": {
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay2": {
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay3": {
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay4": {
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay5": {
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      },
+      "every_pay6": {
+        "fail": "https://dharmamulet.com/failed-payment",
+        "success": "https://dharmamulet.com/success-payment"
+      }
+    },
+    "tgBot": {
+      "defaultTgId": "519254444",
+      "reportsTgId": [
+        "188207447",
+        "28409101",
+        "47786751"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    }
+  }
+}

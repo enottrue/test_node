@@ -1,0 +1,10 @@
+{
+  "1541655165": {
+    "bitrixWebhook": "https://crm.taroirena.ru/rest/1/9fn9k2ioaczf0y04",
+    "token": "1362225785:AAG-38Z9_gzSLU4Qs1EWGQUTMDZiH1xlN_w",
+    "defaultTgId": "519254444",
+    "fieldTelegramId": "UF_FACEBOOK",
+    "firstTimeReport": 30,
+    "secondTimeReport": 120
+  }
+}

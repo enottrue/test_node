@@ -1,0 +1,34 @@
+version: '3.3'
+
+services:
+
+  crm-service:
+    image: crm-service
+    container_name: crm-service
+    build: 
+      context: ../
+      dockerfile: ./deploy/Dockerfile
+    volumes:
+      - ../config:/app/config:ro
+    working_dir: /app
+    ports:
+      - "4001:4001"
+    extra_hosts:
+      - "db-01:10.0.0.3"
+      - "db-02:10.0.0.4"
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.crm_service.entrypoints=secure
+      - traefik.http.routers.crm_service.rule=Host(`node.taroirena.ru`) || (Host(`app.taroirena.ru`) && PathPrefix(`/crm-service`))
+      - traefik.http.routers.crm_service.tls=true
+      - traefik.http.routers.crm_service.tls.certresolver=default
+    restart: unless-stopped
+    networks:
+      taro-network:
+        aliases:
+          - crm-service
+
+networks:
+  taro-network:
+    external: false
+    driver: bridge

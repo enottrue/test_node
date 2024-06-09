@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <?= nameCompany ?>
+    </title>
+</head>
+
+<body>
+    <h2>
+        Micro services
+        <?= nameCompany ?>
+    </h2>
+    <div id="root">
+        <div id="filter">
+            <button class="btn btn-primary" data-action="toDay" type="button">Сегодня</button>
+            <button class="btn btn-primary" data-action="yesterday" type="button">Вчера</button>
+            <button class="btn btn-primary" data-action="thisWeek" type="button">Эта неделя</button>
+            <button class="btn btn-primary" data-action="thisMonth" type="button">Этот месяц</button>
+            <div class="d-inline-block col-8">
+                <label class="d-inline-block h5 col-3">Пользовательский период:</label>
+                <input class="d-inline-block col-2 form-control datepicker" placeholder="от" id="date-from" type="text" />
+                <input class="d-inline-block col-2 form-control datepicker" placeholder="до" id="date-to" type="text" />
+                <button class="btn btn-primary" data-action="custom" type="button">Выбрать</button>
+            </div>
+        </div>
+    </div>
+    <script src="/Graph/bundle.js" charset="utf-8"></script>
+</body>
+
+</html>

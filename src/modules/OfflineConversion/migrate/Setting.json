@@ -1,0 +1,20 @@
+[
+  {
+    "token": "e5f786e85a8f7af2042b09327c41108ee7c9d0e70d91d59776880135a3452233",
+    "webhook": "https://crm.taroirena.ru/rest/1/9fn9k2ioaczf0y04",
+    "facebook_marker": "EAAKXpgOeFs4BAEOOyFzZAZCMqcfWWF14CFGcaoRGSgT92BBk7hfJynK3uhzFQIZBpvDmxwQ7ZB09ZCET76Kl1jq4yPpqoOQJfHzFMeEQZCWnmOc7jAPuYZB2uAjJMJ4ZAJ1LZCfM5dnSZAVCW5mOTCmGKu3JbSf1ZAzVUZCpnVAuu7ZAQHAZDZD",
+    "facebook_act_id": "322622975461486",
+    "facebook_event_name": "taroirena",
+    "facebook_event_id": "2657575847892813",
+    "conversion_marker": "EAAEzItDykA8BAHVU6dFe6WUbQW08uI8E8yRSkKXK61HCOAyFjj5PECCVm02cuDEuy3Bwnlay5ivHZAFOnIVpmq1EamcHSdNNfQD4ZBuOeumjNLrHZCACQgDXwW1UZAKE9qnHhnwJ2lj7msZC73rsgDanDejBWZAZB4jsD06ZB3SuTrSIpywjdUB2pKm7H59eBwIZD",
+    "conversion_event_id": "344199920264292",
+    "yandex_counter": "66992275",
+    "yandex_token": "AQAAAAAJPEm1AAaZluw1Rim9UU5psXvxv4X-v0A",
+    "yandex_target": "456789",
+    "ganalytics_target": "UA-73823491-1",
+    "ganalytics_category": "Покупка",
+    "ganalytics_name": "Амулеты",
+    "google_click_id": "taroirena",
+    "google_path_file": "offline_conversion/google.csv"
+  }
+]

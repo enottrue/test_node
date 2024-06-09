@@ -1,0 +1,9 @@
+{
+  "host": "host.docker.internal",
+  "dialect": "mysql",
+  "database": "crm_service",
+  "username": "bx_clusteruser",
+  "password": "DWH%Z2[})BG%Vqi",
+  "timezone": "+03:00",
+  "logging": false
+}

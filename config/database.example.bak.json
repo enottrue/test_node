@@ -1,0 +1,9 @@
+{
+  "host": "localhost", ||   "host": "host.docker.internal",
+  "dialect": "mysql",
+  "database": "",
+  "username": "",
+  "password": "",
+  "timezone": "+03:00",
+  "logging": false
+}

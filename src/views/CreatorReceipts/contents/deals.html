@@ -1,0 +1,29 @@
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">
+            <input type="checkbox" id="checked-all">
+        </th>
+        <th scope="col">ID</th>
+        <th scope="col">Название</th>
+        <th scope="col">Дата создания</th>
+        <th scope="col">Дата оплаты</th>
+        <th scope="col">Печаталось</th>
+    </tr>
+    </thead>
+    <tbody>
+        <? for ( let deal of deals ) { ?>
+            <tr>
+                <th class="test" scope="row">
+                    <input type="checkbox">
+                </th>
+                <td><?= deal['ID'] ?></td>
+                <td><?= deal['TITLE'] ?></td>
+                <td><?= new Date(deal['DATE_CREATE']).toISOString().slice(0, 19).replace('T', ' ') ?></td>
+                <td><?= ( deal[setting.field_date_payment] ? new Date(deal[setting.field_date_payment]).toISOString().slice(0, 19).replace('T', ' ') : '' ) ?></td>
+                <? if(deal[setting.field_is_print] && deal[setting.field_is_print] == '0') deal[setting.field_is_print] = null; ?>
+                <td><?= deal[setting.field_is_print]?'Да':'Нет' ?></td>
+            </tr>
+        <? } ?>
+    </tbody>
+</table>

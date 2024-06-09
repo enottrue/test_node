@@ -1,0 +1,53 @@
+<h1>Micro Service : <?= name ?></h1>
+<hr>
+<div class="form-group">
+    <p class="h3 col-12 text-center">Фильтр</p>
+    <div class="d-inline-block col-3">
+        <p class="h5 col-12" >Дата создания сделки:</p>
+        <input class="form-control datepicker" placeholder="от" id="filter-date-create-from" type="text" />
+        <input class="form-control datepicker" placeholder="до" id="filter-date-create-to" type="text" />
+    </div>
+    <div class="d-inline-block col-3">
+        <p class="h5 col-12" >Дата оплаты счета:</p>
+        <input class="form-control datepicker" placeholder="от" id="filter-date-payment-from" type="text" />
+        <input class="form-control datepicker" placeholder="до" id="filter-date-payment-to" type="text" />
+    </div>
+    <div class="d-inline-block col-3">
+        <label class="col-9" for="is-print">Печаталась ли ранее:</label>
+        <input class="form-control-sm col-2" id="is-print" type="checkbox" />
+    </div>
+
+    <div class="d-inline-block col-2">
+        <button type="button" class="btn btn-primary col-12 float-right" id="filter" >Фильтровать</button>
+        <button type="button" class="btn btn-info col-12 float-right" id="generate" disabled>Генерировать</button>
+    </div>
+
+</div>
+
+<div id="builder">
+    <?- await include('./builder') ?>
+</div>
+
+<div class="modal" id="modelFile" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Файл готов к скачиванию</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="text-center">
+                    <a href="" id="link-download" download type="button" class="btn btn-success">Скачать</a>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+

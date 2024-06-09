@@ -1,0 +1,32 @@
+FROM node:14-slim
+
+ENV DEBIAN_FRONTEND='noninteractive'
+ENV LANG='C.UTF-8'
+ENV LANGUAGE='C.UTF-8'
+ENV LC_ALL='C.UTF-8'
+ENV NODE_ENV='production'
+ENV TZ='Europe/Moscow'
+
+RUN set -eux; \
+    apt-get -qq update ; \
+    apt-get -y upgrade ;\
+    apt-get install -y \
+    procps; \
+    cp /usr/share/zoneinfo/Europe/Moscow /etc/localtime; \
+    echo 'Europe/Moscow' > /etc/timezone; \
+    rm -rf /tmp/* && rm -rf /var/lib/apt/lists/* ;
+
+WORKDIR /app
+
+
+
+RUN npm i nodemon -g
+# RUN npm i pm2 webpack webpack-cli -g
+COPY *.json .
+COPY *.js .
+# RUN npm i
+# COPY . .
+# RUN webpack
+CMD ["npm", "run", "dev-s"]
+# CMD ["pm2-runtime", "start", "./index.js", "--name", "taroirena"]
+EXPOSE 4001

@@ -1,0 +1,25 @@
+{
+  "1541655165": {
+    "bitrixWebhook": "https://crm.taroirena.ru/rest/1/9fn9k2ioaczf0y04",
+    "fieldUrlPayment": "UF_CRM_1612623803326",
+    "newStatus": "C1:PREPARATION",
+    "oldStatus": "C1:2",
+    "tgBot": {
+      "token": "1362225785:AAG-38Z9_gzSLU4Qs1EWGQUTMDZiH1xlN_w",
+      "defaultTgId": "188207447",
+      "reportsTgId": [
+        "188207447",
+        "188207447"
+      ],
+      "fieldTelegramId": "UF_FACEBOOK"
+    },
+    "tinkoff": {
+      "urlApi": "https://securepay.tinkoff.ru/v2",
+      "terminalId": "1612691329540",
+      "passwordTerminal": "n232bi2pg5txgwkm",
+      "notificationURL": "https://node.taroirena.ru/tinkoff_bank/notification?token=1541655165",
+      "tax": "none",
+      "taxation": "patent"
+    }
+  }
+}

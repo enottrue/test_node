@@ -1,0 +1,86 @@
+{
+  "bitrixWebhook": "https://crm.taroirena.ru/rest/1/9fn9k2ioaczf0y04/",
+  "tgBot": {
+    "token": "1362225785:AAG-38Z9_gzSLU4Qs1EWGQUTMDZiH1xlN_w",
+    "defaultTgId": "519254444",
+    "reportsTgId": [
+      "188207447",
+      "28409101"
+    ],
+    "fieldTelegramId": "UF_FACEBOOK"
+  },
+  "crm": {
+    "fields": {
+      "delivery_id": "UF_CRM_5E793382ECA8C",
+      "address_id": "UF_CRM_1585168066112",
+      "track_number": "UF_CRM_1597094640508",
+      "order_number": "UF_CRM_5E7933830929C",
+      "date_order": "UF_CRM_5E7933830F261"
+    },
+    "deliveries_id": {
+      "38": "СДЭК посылка склад-дверь",
+      "39": "СДЭК экспресс лайт склад-склад",
+      "40": "СДЭК экспресс лайт склад-дверь",
+      "41": "Почта России",
+      "58": "СДЭК посылка склад-склад"
+    }
+  },
+  "ms": {
+    "url": "https://api.moysklad.ru/api/remap/1.2",
+    "auth": {
+      "login": "admin@badvano23ru",
+      "password": "9d5c446115",
+      "token": "350ce934c7272578855d661ea4819f931fd3b5dd"
+    },
+    "entity": {
+      "customOrder": "entity/customerorder",
+      "organization": "entity/organization",
+      "invoiceOut": "entity/invoiceout",
+      "store": "entity/store",
+      "agent": "entity/counterparty",
+      "paymentIn": "entity/paymentin",
+      "product": "entity/product",
+      "demand": "entity/demand"
+    },
+    "meta": {
+      "organization": "ba2982bc-37d4-11ea-0a80-00d6000c9839",
+      "agent": "9ba95093-75ba-11ea-0a80-03d30006afe6",
+      "mainStore": "ba2abbad-37d4-11ea-0a80-00d6000c983b",
+      "states": {
+        "new": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/customerorder/metadata/states/ba3daf50-37d4-11ea-0a80-00d6000c985b",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/customerorder/metadata",
+          "type": "state",
+          "mediaType": "application/json"
+        },
+        "shipment": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/customerorder/metadata/states/7a380bc7-3c51-11ea-0a80-005200096644",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/customerorder/metadata",
+          "type": "state",
+          "mediaType": "application/json"
+        },
+        "sent": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/customerorder/metadata/states/ba3db1ba-37d4-11ea-0a80-00d6000c985e",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/customerorder/metadata",
+          "type": "state",
+          "mediaType": "application/json"
+        }
+      },
+      "states_demand": {
+        "shipment": {
+          "href": "https://online.moysklad.ru/api/remap/1.2/entity/demand/metadata/states/b8923b11-3c50-11ea-0a80-05f2000978a0",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/demand/metadata",
+          "type": "state",
+          "mediaType": "application/json"
+        },
+        "sent": {
+          "href": "https://online.moysklad.ru/api/remap/1.2/entity/demand/metadata/states/b8923c61-3c50-11ea-0a80-05f2000978a1",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/demand/metadata",
+          "type": "state",
+          "mediaType": "application/json"
+        }
+      }
+    }
+  },
+  "debug": true
+}

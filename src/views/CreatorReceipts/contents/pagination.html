@@ -1,0 +1,29 @@
+
+    <ul class="pagination justify-content-center">
+        <li class="page-item <?= activePage == 1?'disabled':''; ?>">
+            <a class="page-link">Первая</a>
+        </li>
+        <li class="page-item <?= activePage == 1?'disabled':''; ?>">
+            <a class="page-link" aria-label="Предыдущая">
+                <span aria-hidden="true">«</span>
+            </a>
+        </li>
+
+        <? for (let i = parseInt(activePage) - 2 ; i < parseInt(activePage) + 3 ; i++) {
+            if (i < 1 || i > totalPage) continue;
+        ?>
+            <li class="page-item <?= activePage == i?'active':''; ?>">
+                <a class="page-link"><?=i?></a>
+            </li>
+        <? } ?>
+
+        <li class="page-item <?= activePage == totalPage?'disabled':''; ?>">
+            <a class="page-link" aria-label="Следующая">
+                <span aria-hidden="true">»</span>
+            </a>
+        </li>
+        <li class="page-item <?= activePage == totalPage?'disabled':''; ?>">
+            <a class="page-link">Последняя</a>
+        </li>
+    </ul>
+    <input type="hidden" id="total-page" value="<?= totalPage ?>" />
